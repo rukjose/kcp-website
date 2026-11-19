@@ -4,8 +4,8 @@
   "description": "Official website for Kigali Citizens Polyclinic - Premium Healthcare in Remera, Kigali",
   "main": "index.html",
   "scripts": {
-    "start": "npx http-server -p 8000 -o",
-    "dev": "npx live-server --port=8000 --open=index.html"
+    "start": "node init && npx http-server -p 8000 -o",
+    "dev": "node init && npx live-server --port=8000 --open=index.html"
   },
   "keywords": [
     "healthcare",
