@@ -1,0 +1,28 @@
+{
+  "name": "kigali-citizens-polyclinic",
+  "version": "2.0.0",
+  "description": "Official website for Kigali Citizens Polyclinic - Premium Healthcare in Remera, Kigali",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=index.html"
+  },
+  "keywords": [
+    "healthcare",
+    "medical",
+    "clinic",
+    "kigali",
+    "rwanda",
+    "polyclinic",
+    "hospital"
+  ],
+  "author": "Kigali Citizens Polyclinic",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
